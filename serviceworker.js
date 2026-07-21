@@ -1,18 +1,18 @@
 const CACHE_NAME = 'gta5-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/characters.html',  
-  '/features.html',    
-  '/css/style.css',
-  '/images/logo.png',
-  '/images/vinewood.jpg',
-  '/images/michael.jpg',
-  '/images/franklin.jpg',
-  '/images/trevor.jpg',
-  '/images/lester.jpg',
-  '/images/lamar.jpg',
-  '/manifest.json'
+  './',
+  './index.html',
+  './characters.html',  
+  './features.html',    
+  './css/style.css',
+  './images/logo.png',
+  './images/vinewood.jpg',
+  './images/michael.jpg',
+  './images/franklin.jpg',
+  './images/trevor.jpg',
+  './images/lester.jpg',
+  './images/lamar.jpg',
+  './manifest.json'
 ];
 
 self.addEventListener('install', event => {
