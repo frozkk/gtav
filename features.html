@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GTA 5 - Особенности игры</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="apple-touch-icon" href="images/icon-192.png">
+</head>
+<body>
+
+    <div class="header">
+    <h1><img src="images/logo.png" alt="GTA 5" class="header-logo"> GTA 5</h1>
+    <p>Сан-Андреас - твой мир!</p>
+	</div>
+    
+    <!-- Меню -->
+    <div class="menu">
+        <a href="index.html">Главная</a>
+        <a href="characters.html">Персонажи</a>
+        <a href="features.html" class="active">Особенности</a>
+        <a href="feedback.php">Обратная связь</a>
+		<a href="admin.php">Админ</a>
+    </div>
+    
+    <!-- Контент -->
+    <div class="content">
+        <h2>Особенности GTA V</h2>
+        <p class="subtitle">Что делает эту игру легендарной?</p>
+        
+        <div class="features-grid">
+            
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Огромный открытый мир</h3>
+                <p>Лос-Сантос и его окрестности — это огромная территория, которую можно исследовать пешком, на машине, на самолёте или даже под водой.</p>
+                <span class="feature-tag">Исследование</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <h3>Три главных героя</h3>
+                <p>Впервые в серии GTA вы управляете сразу тремя персонажами. Переключайтесь между Майклом, Франклином и Тревором в любой момент.</p>
+                <span class="feature-tag">Геймплей</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Сложные ограбления</h3>
+                <p>Планируйте и выполняйте ограбления с разными подходами: тихо и профессионально или шумно и агрессивно.</p>
+                <span class="feature-tag">Миссии</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🚗</div>
+                <h3>Огромный выбор транспорта</h3>
+                <p>Более 300 видов транспорта: спортивные машины, внедорожники, мотоциклы, самолёты, вертолёты, лодки и даже танки.</p>
+                <span class="feature-tag">Транспорт</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔫</div>
+                <h3>Богатый арсенал оружия</h3>
+                <p>От обычных пистолетов до ракетниц, гранатомётов и боевых дронов. Оружие можно модифицировать.</p>
+                <span class="feature-tag">Оружие</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🏠</div>
+                <h3>Недвижимость и бизнес</h3>
+                <p>Покупайте дома, гаражи, склады и целые предприятия. Управляйте своим бизнесом и зарабатывайте деньги.</p>
+                <span class="feature-tag">Экономика</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Дополнительные занятия</h3>
+                <p>Гольф, теннис, гонки, подводные исследования, прыжки с парашютом, охота, йога и многое другое.</p>
+                <span class="feature-tag">Развлечения</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">📡</div>
+                <h3>GTA Online</h3>
+                <p>Многопользовательский режим с постоянными обновлениями. Создайте своего персонажа и играйте с друзьями.</p>
+                <span class="feature-tag">Мультиплеер</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Графика и детализация</h3>
+                <p>Удивительная графика даже спустя годы после выхода. Реалистичные погодные условия, смена дня и ночи.</p>
+                <span class="feature-tag">Графика</span>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">📖</div>
+                <h3>Глубокий сюжет</h3>
+                <p>История о дружбе, предательстве, деньгах и выборе. Интересные диалоги и харизматичные персонажи.</p>
+                <span class="feature-tag">Сюжет</span>
+            </div>
+            
+        </div>
+        
+        <a href="index.html" class="btn">← Вернуться на главную</a>
+    </div>
+    
+    <div class="footer">
+        <p>© 2026 <span>GTA 5</span> Фан-сайт. Все права защищены.</p>
+        <p>Неофициальный сайт, созданный фанатами для фанатов</p>
+    </div>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/serviceworker.js')
+				.then(reg => console.log('SW registered:', reg))
+				.catch(err => console.log('SW registration failed:', err));
+		}
+	</script>
+</body>
+</html>

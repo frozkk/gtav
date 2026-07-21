@@ -1,0 +1,21 @@
+{
+  "name": "GTA 5 Фан-сайт",
+  "short_name": "GTA 5",
+  "description": "Неофициальный фан-сайт по игре GTA 5",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#f5c518",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

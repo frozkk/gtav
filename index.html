@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GTA 5 - Фан-сайт</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="apple-touch-icon" href="images/icon-192.png">
+</head>
+<body>
+
+    <div class="header">
+    <h1><img src="images/logo.png" alt="GTA 5" class="header-logo"> GTA 5</h1>
+    <p>Сан-Андреас - твой мир!</p>
+	</div>
+    
+    <div class="menu">
+        <a href="index.html" class="active">Главная</a>
+        <a href="characters.html">Персонажи</a>
+        <a href="features.html">Особенности</a>
+        <a href="feedback.php">Обратная связь</a>
+		<a href="admin.php">Админ</a>
+    </div>
+    
+    <div class="content">
+        
+        <img src="images/vinewood.jpg" alt="Vinewood - GTA 5" class="gta-image">
+        
+        <h2>Добро пожаловать в Лос-Сантос!</h2>
+        
+        <p>
+            <strong>Grand Theft Auto V</strong> — это культовая игра в жанре action-adventure с открытым миром, 
+            разработанная легендарной компанией <strong>Rockstar North</strong>. Действие игры происходит в 
+            вымышленном штате <strong>Сан-Андреас</strong>, который является пародией на южную Калифорнию 
+            и город Лос-Анджелес.
+        </p>
+        
+        <p>
+            Сюжет GTA V разворачивается вокруг трёх главных героев — <strong>Майкла</strong>, 
+            <strong>Франклина</strong> и <strong>Тревора</strong>, чьи судьбы переплетаются в мире криминала, 
+            коррупции и погони за американской мечтой. Каждый из них имеет свою уникальную историю, 
+            мотивацию и навыки, что делает игру невероятно захватывающей.
+        </p>
+        
+        <p>
+            Игровой мир GTA V огромен и разнообразен: от шумных улиц Лос-Сантоса до безлюдных пустынь 
+            Блейн-Каунти. Игроки могут исследовать город, выполнять миссии, участвовать в ограблениях, 
+            покупать недвижимость, управлять бизнесом и просто наслаждаться свободой действий в 
+            открытом мире.
+        </p>
+        
+        <p>
+            С момента выхода в 2013 году GTA V стала одной из самых продаваемых игр в истории, 
+            собрав более 200 миллионов копий по всему миру. Игра получила множество наград за 
+            сценарий, озвучку, геймплей и внимание к деталям.
+        </p>
+        
+        <div class="main-cta-block">
+            <h2>Исследуй мир GTA V вместе с нами!</h2>
+            <p>Выбери, что тебя интересует:</p>
+            <div class="cta-buttons">
+                <a href="characters.html" class="cta-btn">
+                    <span class="cta-icon">👥</span>
+                    <span class="cta-label">Персонажи</span>
+                    <span class="cta-desc">Узнай о героях</span>
+                </a>
+                <a href="features.html" class="cta-btn">
+                    <span class="cta-icon">⭐</span>
+                    <span class="cta-label">Особенности</span>
+                    <span class="cta-desc">Что делает игру легендарной</span>
+                </a>
+                <a href="feedback.html" class="cta-btn">
+                    <span class="cta-icon">✉️</span>
+                    <span class="cta-label">Обратная связь</span>
+                    <span class="cta-desc">Напиши нам</span>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="footer">
+        <p>© 2026 <span>GTA 5</span> Фан-сайт. Все права защищены.</p>
+        <p>Неофициальный сайт, созданный фанатами для фанатов</p>
+    </div>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/serviceworker.js')
+				.then(reg => console.log('SW registered:', reg))
+				.catch(err => console.log('SW registration failed:', err));
+		}
+	</script>
+</body>
+</html>
